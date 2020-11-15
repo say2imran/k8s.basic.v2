@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/imran/IdeaProjects/k8s.basic.v1/venv"
+VIRTUAL_ENV="/home/imran/IdeaProjects/k8s.basic.v2/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

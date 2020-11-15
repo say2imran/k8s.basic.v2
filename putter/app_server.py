@@ -7,8 +7,6 @@ import os
 
 app = FastAPI()
 
-#os.environ['no_proxy'] = '127.0.0.1,localhost'
-
 
 def pod_name():
     return {"hostname": socket.gethostname(), "imz_fqdn": socket.getfqdn()}

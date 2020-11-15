@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/imran/IdeaProjects/k8s.basic.v1/venv"
+set -gx VIRTUAL_ENV "/home/imran/IdeaProjects/k8s.basic.v2/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

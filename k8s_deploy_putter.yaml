@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: putter-app-dep-metadat
+spec:
+  selector:
+    matchLabels:
+      app: putter-app
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: putter-app
+    spec:
+      containers:
+      - name: putter-app
+        image: say2imran/putter_image:v2
+        #imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8082
+        
